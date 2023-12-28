@@ -1,1 +1,1 @@
-workspace(name = "org_hola_core")
+workspace(name = "name")

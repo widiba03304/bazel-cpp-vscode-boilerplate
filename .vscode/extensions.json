@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "ms-vscode-remote.remote-containers",
+    "bazelbuild.vscode-bazel",
+    "ms-vscode.cpptools-extension-pack",
+    "xaver.clang-format",
+    "ms-azuretools.vscode-docker"
+  ]
+}
