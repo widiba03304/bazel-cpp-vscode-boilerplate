@@ -27,4 +27,8 @@ This recommends to install following extensions, which are also listed in `.vsco
 
 # Usage
 - Run `Dev Containers: Reopen in Container` in VSCode.
-- `.vscode/tasks.json` and `.vscode/launch.json` specifies the bazel build pipelines 
+- `.vscode/tasks.json` and `.vscode/launch.json` specifies the bazel build pipelines.
+  - All launch commands first build the target with the `bazel build ${relativeFileDirname}:${fileBasenameNoExtension}` command and run vscode launcher.
+  - `Launch Bazel (Debug)`: Build the target in debug mode (`-c dbg`) and run.
+  - `Launch Bazel`: Build the target and run.
+  - `Launch Bazel (Opt)`: Build the target in optimized mode (`-c opt`) and run.

@@ -2,7 +2,7 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Bazel Debug (Forced Debug)",
+      "name": "Launch Bazel (Debug)",
       "type": "cppdbg",
       "request": "launch",
       "program": "${workspaceFolder}/bazel-bin/${relativeFileDirname}/${fileBasenameNoExtension}",
@@ -23,7 +23,7 @@
       "miDebuggerPath": "/usr/bin/gdb"
     },
     {
-      "name": "Bazel Debug",
+      "name": "Launch Bazel",
       "type": "cppdbg",
       "request": "launch",
       "program": "${workspaceFolder}/bazel-bin/${relativeFileDirname}/${fileBasenameNoExtension}",
@@ -44,7 +44,7 @@
       "miDebuggerPath": "/usr/bin/gdb"
     },
     {
-      "name": "Bazel Debug (Forced Opt)",
+      "name": "Launch Bazel (Opt)",
       "type": "cppdbg",
       "request": "launch",
       "program": "${workspaceFolder}/bazel-bin/${relativeFileDirname}/${fileBasenameNoExtension}",
